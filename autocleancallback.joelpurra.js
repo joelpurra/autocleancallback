@@ -20,6 +20,32 @@ var JoelPurra = JoelPurra || {};
 
 (function ($, namespace) {
 
+    // TODO: put in common library for reuse
+    namespace.getFunctionName = function (fn) {
+
+        if (fn === undefined) {
+
+            return undefined;
+        }
+
+        var fnStr = ("" + fn);
+
+        return $.trim(fnStr.substr(0, fnStr.indexOf("(")));
+    };
+
+    // TODO: put in common library for reuse
+    namespace.getFunctionSignature = function (fn) {
+
+        if (fn === undefined) {
+
+            return undefined;
+        }
+
+        var fnStr = ("" + fn);
+
+        return $.trim(fnStr.substr(0, fnStr.indexOf(")") + 1));
+    };
+
     namespace.autoCleanCallback = function ($input, callback) {
 
         var callbackName = namespace.getFunctionName(callback);
