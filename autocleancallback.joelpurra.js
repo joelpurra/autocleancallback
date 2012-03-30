@@ -7,6 +7,7 @@
 * A jQuery plugin to clean input fields with common functionality, like
 * trim, normalize whitespace, digits only. It is also easily extensible.
 */
+// https://gist.github.com/2254354
 
 // Uses Ben Alman's JavaScript Debug: A simple wrapper for console.log
 // http://benalman.com/projects/javascript-debug-console-log/
