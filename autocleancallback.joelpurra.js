@@ -1,7 +1,7 @@
 /*!
 * @license AutoCleanCallback
 * Copyright (c) 2011, 2012, 2013 The Swedish Post and Telecom Authority (PTS)
-* Developed for PTS by Joel Purra <http://joelpurra.se/>
+* Developed for PTS by Joel Purra <http://joelpurra.com/>
 * Released under the BSD license.
 *
 * A jQuery plugin to clean input fields with common functionality, like
