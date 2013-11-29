@@ -139,6 +139,50 @@ var JoelPurra = JoelPurra || {};
         namespace.autoCleanCallback($input, cleanTrim);
     };
 
+    namespace.autoCleanLowerCase = function($input) {
+
+        debug.log(".autoCleanLowerCase($input)", $input);
+
+        function cleanLowerCase($inputToClean) {
+
+            debug.log(".autoCleanLowerCase($input)", $input, "cleanLowerCase($inputToClean)", $inputToClean);
+
+            var val = $inputToClean.val(),
+                clean = val.toLowerCase();
+
+            if (val !== clean) {
+
+                return clean;
+            }
+
+            return null;
+        }
+
+        namespace.autoCleanCallback($input, cleanLowerCase);
+    };
+
+    namespace.autoCleanUpperCase = function($input) {
+
+        debug.log(".autoCleanUpperCase($input)", $input);
+
+        function cleanUpperCase($inputToClean) {
+
+            debug.log(".autoCleanUpperCase($input)", $input, "cleanUpperCase($inputToClean)", $inputToClean);
+
+            var val = $inputToClean.val(),
+                clean = val.toUpperCase();
+
+            if (val !== clean) {
+
+                return clean;
+            }
+
+            return null;
+        }
+
+        namespace.autoCleanCallback($input, cleanUpperCase);
+    };
+
     namespace.autoCleanReplace = function ($input, disallowed, replaceWith) {
 
         debug.log(".autoCleanReplace($input, disallowed, replaceWith)", $input, disallowed, replaceWith);
