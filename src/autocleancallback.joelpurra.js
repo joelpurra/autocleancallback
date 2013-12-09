@@ -122,6 +122,44 @@ var JoelPurra = JoelPurra || {};
         namespace.autoCleanCallback($input, cleanTrim);
     };
 
+    namespace.autoCleanTrimLeft = function($input) {
+        debug.log(".autoCleanTrimLeft($input)", $input);
+
+        function cleanTrimLeft($inputToClean) {
+            debug.log(".autoCleanTrimLeft($input)", $input, "cleanTrimLeft($inputToClean)", $inputToClean);
+
+            var val = $inputToClean.val(),
+                clean = val.trimLeft();
+
+            if (val !== clean) {
+                return clean;
+            }
+
+            return null;
+        }
+
+        namespace.autoCleanCallback($input, cleanTrimLeft);
+    };
+
+    namespace.autoCleanTrimRight = function($input) {
+        debug.log(".autoCleanTrimRight($input)", $input);
+
+        function cleanTrimRight($inputToClean) {
+            debug.log(".autoCleanTrimRight($input)", $input, "cleanTrimRight($inputToClean)", $inputToClean);
+
+            var val = $inputToClean.val(),
+                clean = val.trimRight();
+
+            if (val !== clean) {
+                return clean;
+            }
+
+            return null;
+        }
+
+        namespace.autoCleanCallback($input, cleanTrimRight);
+    };
+
     namespace.autoCleanLowerCase = function($input) {
         debug.log(".autoCleanLowerCase($input)", $input);
 
