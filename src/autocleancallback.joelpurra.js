@@ -4,13 +4,11 @@
  * Developed for PTS by Joel Purra <http://joelpurra.com/>
  * Released under the BSD license.
  *
+ * https://github.com/joelpurra/autocleancallback
+ *
  * A jQuery plugin to clean input fields with common functionality, like
  * trim, normalize whitespace, digits only. It is also easily extensible.
  */
-// https://gist.github.com/2254354
-
-// Uses Ben Alman's JavaScript Debug: A simple wrapper for console.log
-// http://benalman.com/projects/javascript-debug-console-log/
 
 /*jslint white:true */
 /*global jQuery:true, JoelPurra:true, debug:true*/
