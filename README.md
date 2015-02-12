@@ -54,7 +54,3 @@ Copyright (c) 2011, 2012, 2013, The Swedish Post and Telecom Authority (PTS)
 All rights reserved.
 
 Released under the BSD license.
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/joelpurra/autocleancallback/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
