@@ -1,4 +1,4 @@
-# [AutoCleanCallback](http://joelpurra.github.com/autocleancallback) javascript library
+# [AutoCleanCallback](https://joelpurra.com/projects/autocleancallback) javascript library
 
 A jQuery plugin to clean input fields with common functionality, like trim, normalize whitespace, digits only. It is also easily extensible.
 
@@ -42,13 +42,13 @@ JoelPurra.autoCleanReplace($input, disallowed, replaceWith);
 
 
 ## Runtime dependencies
-- [jQuery](http://jquery.com/)
+- [jQuery](https://jquery.com/)
 - [Ben Alman's JavaScript Debug](http://benalman.com/projects/javascript-debug-console-log/), a simple wrapper for console.log
 
 
 
 ## License
-Developed for PTS by [Joel Purra](http://joelpurra.com/)
+Developed for PTS by [Joel Purra](https://joelpurra.com/)
 
 Copyright (c) 2011, 2012, 2013, 2014, 2015 The Swedish Post and Telecom Authority (PTS)
 All rights reserved.
