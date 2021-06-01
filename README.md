@@ -4,6 +4,12 @@ A jQuery plugin to clean input fields with common functionality, like trim, norm
 
 
 
+> ## ⚠️ This project has been archived
+>
+> No future updates are planned. Feel free to continue using it, but expect no support.
+
+
+
 ## Usage
 
 ```html
